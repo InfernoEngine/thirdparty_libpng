@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+	<GlobalIncludePath>.</GlobalIncludePath>
+
+	<StaticLibrary>
+		<Name>thirdparty_libpng</Name>
+		<SourceRoot>.</SourceRoot>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>example.c;png.c;pngerror.c;pngget.c;pngmem.c;pngpread.c;pngread.c;pngrio.c;pngrtran.c;pngrutil.c;pngset.c;pngtest.c;pngtrans.c;pngwio.c;pngwrite.c;pngwtran.c;pngwutil.c</ThirdPartySourceFile>
+	</StaticLibrary>
+
+</Module>
